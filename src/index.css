@@ -8,9 +8,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.navigation a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  margin: 0 calc(5px + 3vmin);
+  padding: calc(5px + 1vmin) calc(3px + 2vmin);
+  font-size: calc(8px + 3vmin);
+  line-height: 1.1;
+  border-radius: calc(3px + 1vmin);
+  background-color: transparent;
+  transition: color .5s, background-color .3s;
+}
+.navigation a:hover {
+  color: white;
+  background-color: black;
+
 }
 
 .title {
