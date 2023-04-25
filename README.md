@@ -1,5 +1,7 @@
 # Simple React Router Example
 
+*Archived April 25. 2023. Outdated starter*
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
